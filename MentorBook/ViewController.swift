@@ -40,13 +40,33 @@ class ViewController: UIViewController {
         courseLabel.text = mentorArray[index].course
     }
     
-    @IBAction func mae() {
-        index = index - 1
-        setUI()
-    }
-    
     @IBAction func tugi() {
         index = index + 1
+    
+        print(index)
+        if index == 3 {
+            index = 0
+    
+        }
+        setUI()
+      
+//        if index % 3 == 0 {
+//            show = 0
+//        }else if index % 3 == 1{
+//            show = 1
+//        }else if index % 3 == 2{
+//            show = 2
+//        }
+    
+    }
+    
+    @IBAction func mae() {
+        index = index - 1
+    
+        print(index)
+        if index == -1 {
+            index = 2
+        }
         setUI()
         
     }
