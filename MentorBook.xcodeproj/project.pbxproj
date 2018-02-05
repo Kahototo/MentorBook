@@ -14,6 +14,10 @@
 		5E0338A71F62B9A600C4D878 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E0338A51F62B9A600C4D878 /* LaunchScreen.storyboard */; };
 		5E0338B21F62B9A600C4D878 /* MentorBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0338B11F62B9A600C4D878 /* MentorBookTests.swift */; };
 		5E0338BD1F62B9A600C4D878 /* MentorBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0338BC1F62B9A600C4D878 /* MentorBookUITests.swift */; };
+		5E0338CE1F62BA4400C4D878 /* aguri.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5E0338CB1F62BA4400C4D878 /* aguri.jpg */; };
+		5E0338CF1F62BA4400C4D878 /* hashio.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 5E0338CC1F62BA4400C4D878 /* hashio.JPG */; };
+		5E0338D01F62BA4400C4D878 /* taithi.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 5E0338CD1F62BA4400C4D878 /* taithi.JPG */; };
+		5E0338D21F62BDEE00C4D878 /* Mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0338D11F62BDEE00C4D878 /* Mentor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		5E0338B81F62B9A600C4D878 /* MentorBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MentorBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E0338BC1F62B9A600C4D878 /* MentorBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorBookUITests.swift; sourceTree = "<group>"; };
 		5E0338BE1F62B9A600C4D878 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E0338CB1F62BA4400C4D878 /* aguri.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aguri.jpg; sourceTree = "<group>"; };
+		5E0338CC1F62BA4400C4D878 /* hashio.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hashio.JPG; sourceTree = "<group>"; };
+		5E0338CD1F62BA4400C4D878 /* taithi.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taithi.JPG; sourceTree = "<group>"; };
+		5E0338D11F62BDEE00C4D878 /* Mentor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mentor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +105,10 @@
 		5E03389B1F62B9A600C4D878 /* MentorBook */ = {
 			isa = PBXGroup;
 			children = (
+				5E0338CA1F62BA4400C4D878 /* images */,
 				5E03389C1F62B9A600C4D878 /* AppDelegate.swift */,
 				5E03389E1F62B9A600C4D878 /* ViewController.swift */,
+				5E0338D11F62BDEE00C4D878 /* Mentor.swift */,
 				5E0338A01F62B9A600C4D878 /* Main.storyboard */,
 				5E0338A31F62B9A600C4D878 /* Assets.xcassets */,
 				5E0338A51F62B9A600C4D878 /* LaunchScreen.storyboard */,
@@ -123,6 +133,16 @@
 				5E0338BE1F62B9A600C4D878 /* Info.plist */,
 			);
 			path = MentorBookUITests;
+			sourceTree = "<group>";
+		};
+		5E0338CA1F62BA4400C4D878 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				5E0338CB1F62BA4400C4D878 /* aguri.jpg */,
+				5E0338CC1F62BA4400C4D878 /* hashio.JPG */,
+				5E0338CD1F62BA4400C4D878 /* taithi.JPG */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +252,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E0338CE1F62BA4400C4D878 /* aguri.jpg in Resources */,
 				5E0338A71F62B9A600C4D878 /* LaunchScreen.storyboard in Resources */,
+				5E0338D01F62BA4400C4D878 /* taithi.JPG in Resources */,
+				5E0338CF1F62BA4400C4D878 /* hashio.JPG in Resources */,
 				5E0338A41F62B9A600C4D878 /* Assets.xcassets in Resources */,
 				5E0338A21F62B9A600C4D878 /* Main.storyboard in Resources */,
 			);
@@ -259,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E0338D21F62BDEE00C4D878 /* Mentor.swift in Sources */,
 				5E03389F1F62B9A600C4D878 /* ViewController.swift in Sources */,
 				5E03389D1F62B9A600C4D878 /* AppDelegate.swift in Sources */,
 			);
